@@ -1,0 +1,19 @@
+<script lang="ts" setup name="Layout">
+import AppTopnav from './components/app-topnav.vue';
+import AppHeader from './components/app-header.vue';
+import AppFooter from './components/app-footer.vue';</script>
+<template>
+  <AppTopnav />
+  <AppHeader />
+  <main class="app-body">
+<!-- 导出路由 -->
+
+  </main>
+  <AppFooter />
+</template>
+
+<style lang="less" scoped>
+.app-body{
+  min-height: 666px;
+}
+</style>

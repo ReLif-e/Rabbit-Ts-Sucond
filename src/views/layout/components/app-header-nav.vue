@@ -25,7 +25,7 @@
 <script setup lang="ts">
 // 导入集成的store/index
 import userCate from '@/store';
-// 将重命名的导出pinia组1件
+// 将重命名的导出pinia组11件
 const {category }= userCate()
 
 

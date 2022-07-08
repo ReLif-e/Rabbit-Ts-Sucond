@@ -8,7 +8,7 @@ export interface CategoryRes {
   // 然后通过ApiRes的T传递过去
   // 通过result接受,result里面的内容就是这些东西
   children:CategoryRes[]
- 
+  open:boolean
 }
 
 export interface ApiRes<T> {

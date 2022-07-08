@@ -10,7 +10,7 @@ console.log(y);
 
 <template>
   <div :class="{show:y>78}" class="app-header-sticky">
-    <div class="container">
+    <div class="container" v-if='y > 78'>
       <RouterLink class="logo" to="/" />
       <AppHeaderNav />
       <div class="right">

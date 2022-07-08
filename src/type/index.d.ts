@@ -8,6 +8,7 @@ export interface CategoryRes {
   // 然后通过ApiRes的T传递过去
   // 通过result接受,result里面的内容就是这些东西
   children:CategoryRes[]
+  goods:GoodItem[]
   open:boolean
 }
 
@@ -17,3 +18,13 @@ export interface ApiRes<T> {
   result:T[]
 }
 
+
+export interface GoodItem {
+  id: string;
+  name: string;
+  desc: string;
+  price: string;
+  picture: string;
+  discount?: any;
+  orderNum?: any;
+}
